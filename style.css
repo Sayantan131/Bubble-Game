@@ -44,6 +44,10 @@ html,body{
     align-items: center;
     gap: 20px;
 }
+.elem h2{
+    font-weight: 600;
+    font-size: 22px;
+}
 
 .box{
     color: rgb(10, 178, 38);
@@ -56,7 +60,22 @@ html,body{
 }
 
 #pbtm{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
     width: 100%;
     height:calc(100% - 100px);
-    background-color: black;
+    
+}
+
+.bubble{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(10, 178, 38);
+    border-radius: 50%;
+    font-weight: 500;
 }
